@@ -92,8 +92,8 @@ class RestrictedList(list):
     def extend(self, iterable, trim=False):
         if not trim:
             cond = map(self._validate, iterable)
-            if not all(cond):
-                raise ValueError("Contains value that cannot be put into this RestricedList")
+            #if not all(cond):
+                #raise ValueError("Contains value that cannot be put into this RestricedList")
         else:
             iterable = [o for o in iterable if self._validate(o)]
         return super().extend(iterable)
