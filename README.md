@@ -4,6 +4,8 @@ A python library for reading and writing NBT files. Compatible with json.
 
 Based on NBT Version: 19133 (Current version used by Minecraft)
 
+This Fork has been modified to work with the Hypixel API.
+
 ## What is NBT
 
 > NBT (Named Binary Tag) is a tag based binary format designed to carry large amounts of binary data with smaller amounts of additional data. An NBT file consists of a single GZIPped Named Tag of type TAG_Compound.
