@@ -4,7 +4,8 @@ A python library for reading and writing NBT files. Compatible with json.
 
 Based on NBT Version: 19133 (Current version used by Minecraft)
 
-This Fork has been modified to work with the Hypixel API.
+This Fork has been modified to work with the [Hypixel API](https://api.hypixel.net/).
+(Talismans contain data that causes a ValueError)
 
 ## What is NBT
 
